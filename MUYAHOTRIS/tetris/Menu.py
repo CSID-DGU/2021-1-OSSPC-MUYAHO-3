@@ -42,6 +42,7 @@ class Menu:
         self.menu.clear()
         self.mytheme.widget_margin=self.widget_margin_main
         self.menu.add_vertical_margin(self.margin_main)
+        self.menu.add_label("   MUYAHOTRIS  ", selectable=False, font_size=self.font_main)
         self.menu.add_button('   Single Mode   ', self.show_game,font_size=self.font_main)
         self.menu.add_button('    VS Mode    ', self.vs_mode,font_size=self.font_main)
         self.menu.add_button('  Ranking  ', self.show_rank,font_size=self.font_main)
@@ -91,7 +92,7 @@ class Menu:
         #Menu.click.play()
         self.Mode = 'Easy'
         self.tetris.mode = 'Easy'
-        self.tetris.run(500) # speed in easy mode
+        self.tetris.run(500, 'EASY mode') # speed in easy mode
         self.menu.clear()
         #self.show_score(self.Mode, self.tetris.Score)
 
@@ -99,7 +100,7 @@ class Menu:
         #Menu.click.play()
         self.Mode = 'Hard'
         self.tetris.mode = 'Hard'
-        self.tetris.run(200) # speed in hard mode
+        self.tetris.run(200, 'HARD mode') # speed in hard mode
         self.menu.clear()
         #self.show_score(self.Mode, self.tetris.Score)
 
@@ -119,5 +120,5 @@ class Menu:
     def vs_mode(self):
         self.Mode = 'Easy'
         self.tetris.mode = 'Easy'
-        self.tetris.run(500) # speed in easy mode
+        self.tetris.run(500, 'VS mode') # speed in easy mode
         self.menu.clear()

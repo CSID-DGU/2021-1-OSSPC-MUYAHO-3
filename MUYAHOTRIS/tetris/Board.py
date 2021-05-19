@@ -274,9 +274,9 @@ class Board:
                 if event.type == QUIT:
                     pygame.quit()
                     sys.exit()
-                elif event.type == KEYDOWN:
-                    running = False
-
+                #elif event.type == KEYUP:
+                #    running = False    메뉴 선택 시 바로 게임이 실행되지 않음. KEYDOWN은 안 되고 KEYUP은 됨
+                running = False
     def HS(self, txt="no"):
         if txt != "no":
             fontObj = pygame.font.Font('assets/Roboto-Bold.ttf', 32)
