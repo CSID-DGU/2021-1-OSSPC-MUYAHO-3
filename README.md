@@ -59,14 +59,15 @@ $ python3 Run.py
 ### 1. 메뉴 선택
 게임 시작 메뉴 선택 페이지
 
-<img src="/MUYAHOTRIS/assets/images/main_widget.png" width ="500" height="250">
+<img src="https://github.com/CSID-DGU/2021-1-OSSPC-MUYAHO-3/blob/main/MUYAHOTRIS/assets/images/main_widget.PNG?raw=true" width ="300" height="400">
 
 ### 2. 게임 플레이
 인게임 플레이 화면
 
-<img src="/MUYAHOTRIS/assets/images/playgame_image.png" width ="500" height="250">
+<img src="https://github.com/CSID-DGU/2021-1-OSSPC-MUYAHO-3/blob/main/MUYAHOTRIS/assets/images/playgame_image.PNG?raw=true" width ="300" height="400">
 
-##게임모드
+--게임모드--
+
 - 이지 모드
   - 블록 하강 속도 느린 모드   
 - 하드 모드
@@ -78,7 +79,7 @@ $ python3 Run.py
 ### 3. 랭킹 확인
 레벨 모드 랭킹 확인 화면
 
-<img src="/MUYAHOTRIS/assets/images/levelranking_image.png" width ="500" height="250">
+<img src="https://github.com/CSID-DGU/2021-1-OSSPC-MUYAHO-3/blob/main/MUYAHOTRIS/assets/images/levelranking_image.PNG?raw=true" width ="300" height="400">
 
 Origin Base Source  
 - https://github.com/hbseo/OSD_game
