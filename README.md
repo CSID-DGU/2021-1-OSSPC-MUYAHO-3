@@ -75,7 +75,7 @@ $ python3 Run.py
 - 레벨 모드
   - 레벨 별 랜덤 블록 생성   
 
-  **2레벨 방해블록 이미지**
+    **2레벨 방해블록 이미지**   
   <img src="https://github.com/CSID-DGU/2021-1-OSSPC-MUYAHO-3/blob/main/MUYAHOTRIS/assets/images/levelblock_image.PNG?raw=true" width ="300" height="400">
 
 
