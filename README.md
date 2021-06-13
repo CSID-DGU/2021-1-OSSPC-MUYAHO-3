@@ -66,7 +66,7 @@ $ python3 Run.py
 
 <img src="https://github.com/CSID-DGU/2021-1-OSSPC-MUYAHO-3/blob/main/MUYAHOTRIS/assets/images/playgame_image.PNG?raw=true" width ="300" height="400">
 
---게임모드--
+**게임모드**
 
 - 이지 모드
   - 블록 하강 속도 느린 모드   
@@ -74,6 +74,9 @@ $ python3 Run.py
   - 블록 하강 속도 빠른 모드   
 - 레벨 모드
   - 레벨 별 랜덤 블록 생성   
+
+  **2레벨 방해블록 이미지**
+  <img src="https://github.com/CSID-DGU/2021-1-OSSPC-MUYAHO-3/blob/main/MUYAHOTRIS/assets/images/levelblock_image.PNG?raw=true" width ="300" height="400">
 
 
 ### 3. 랭킹 확인
