@@ -143,13 +143,13 @@ class Menu:
                 easy_name = str(easy_data[i]['ID'])
                 easy_score = '{0:>05s}'.format(str(easy_data[i]['score']))
                 r= "#{} : ".format(i+Num.One) + easy_name + "    " + easy_score
-                self.menu.add_label(r,selectable=False, font_size=self.font_main)
+                self.menu.add_button(r,self.pass_menu, font_size=self.font_main)
         else:
             for i in range(len(easy_data)):
                 easy_name = str(easy_data[i]['ID'])
                 easy_score = '{0:>05s}'.format(str(easy_data[i]['score']))
                 r= "#{} : ".format(i+Num.One) + easy_name + "    " + easy_score
-                self.menu.add_label(r,selectable=False, font_size=self.font_main)
+                self.menu.add_button(r,font_size=self.font_main)
         self.menu.add_button('back', self.reset,font_size=self.font_sub)
 
     def hard_rank(self):                                                                                                            #hard 모드 랭킹
@@ -165,13 +165,13 @@ class Menu:
                 hard_name = str(hard_data[i]['ID'])
                 hard_score = '{0:>05s}'.format(str(hard_data[i]['score']))
                 r= "#{} : ".format(i+Num.One) + hard_name + "    " + hard_score
-                self.menu.add_label(r,selectable=False, font_size=self.font_main)
+                self.menu.add_button(r,self.pass_menu,font_size=self.font_main)
         else:
             for i in range(len(hard_data)):
                 hard_name = str(hard_data[i]['ID'])
                 hard_score = '{0:>05s}'.format(str(hard_data[i]['score']))
                 r= "#{} : ".format(i+Num.One) + hard_name + "    " + hard_score
-                self.menu.add_label(r,selectable=False, font_size=self.font_main)
+                self.menu.add_button(r,font_size=self.font_main)
         self.menu.add_button('back', self.reset,font_size=self.font_sub)
 
     def level_rank(self):                                                                                                           #level 모드 랭킹
@@ -187,13 +187,13 @@ class Menu:
                 level_name = str(level_data[i]['ID'])
                 level_score = '{0:>05s}'.format(str(level_data[i]['level']))
                 r= "#{} : ".format(i+Num.One) + level_name + "    " + level_score
-                self.menu.add_label(r,selectable=False, font_size=self.font_main)
+                self.menu.add_button(r,self.pass_menu,font_size=self.font_main)
         else:
             for i in range(len(level_data)):
                 level_name = str(level_data[i]['ID'])
                 level_score = '{0:>05s}'.format(str(level_data[i]['level']))
                 r= "#{} : ".format(i+Num.One) + level_name + "    " + level_score
-                self.menu.add_label(r,selectable=False, font_size=self.font_main)
+                self.menu.add_button(r,self.pass_menu,font_size=self.font_main)
         self.menu.add_button('back', self.reset,font_size=self.font_sub)
 
     def level_mode(self):                                                                                                           #level 모드 함수
@@ -203,3 +203,6 @@ class Menu:
         self.tetris.run(MN.start_easy, 'Level')
         self.menu.clear()
         self.show_score(self.Mode, self.tetris.Level)
+
+    def pass_menu():
+        pass
