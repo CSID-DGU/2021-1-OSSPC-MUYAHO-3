@@ -58,11 +58,11 @@ $ python3 Run.py
 
 ### 1. 메뉴 선택
 게임 시작 메뉴 선택 페이지
-<img src="MUYAHOTRIS/assets/images/main_widget.png" width ="500" height"250""
+<img src="MUYAHOTRIS/assets/images/main_widget.png" width ="500" height"250"">
 
 ### 2. 게임 플레이
 인게임 플레이 화면
-<img src="MUYAHOTRIS/assets/images/playgame_image.png" width ="500" height"250""
+<img src="MUYAHOTRIS/assets/images/playgame_image.png" width ="500" height"250"">
 
 ##게임모드
 - 이지 모드
@@ -75,7 +75,7 @@ $ python3 Run.py
 
 ### 3. 랭킹 확인
 레벨 모드 랭킹 확인 화면
-<img src="MUYAHOTRIS/assets/images/levelranking_image.png" width ="500" height"250""
+<img src="MUYAHOTRIS/assets/images/levelranking_image.png" width ="500" height"250"">
 
 Origin Base Source  
 - https://github.com/hbseo/OSD_game
