@@ -211,9 +211,9 @@ class MN:
     #메뉴 기본 테마 만들기
 
     mytheme=pygame_menu.themes.THEME_ORANGE.copy()                  # 메뉴 기본 테마 설정
+    mytheme=pygame_menu.themes.Theme(menubar_close_button=False)
     mytheme.widget_font_color= Color.MORELIGHTYELLOW                # 메뉴 위젯 폰트 컬러
     mytheme.background_color = Image.main_image                           # 메뉴 배경 설정
-    #mytheme.widget_background_color = widget_image                 # 메뉴 위젯 배경 설정
     mytheme.title_bar_style=pygame_menu.widgets.MENUBAR_STYLE_NONE  # 메뉴 타이틀 바 모양 설정
     mytheme.widget_alignment=pygame_menu.locals.ALIGN_CENTER        # 메뉴 가운데 정렬 설정
     mytheme.widget_font =pygame_menu.font.FONT_MUNRO                # 메뉴 폰트 설정
