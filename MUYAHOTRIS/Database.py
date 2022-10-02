@@ -4,9 +4,9 @@ class Database:
 
     def __init__(self):                                                         #데이터베이스 생성자
         self.score_db = pymysql.connect(
-        user = 'user',
-        passwd = 'muyaho12',
-        host = 'muyahotris.cbsjhgovfxo7.ap-northeast-2.rds.amazonaws.com',
+        user = '',
+        passwd = '',
+        host = '',
         db = 'muyahotris',
         charset = 'utf8'
         )
